@@ -1,0 +1,26 @@
+  .consectetur
+  {
+    position: center;
+    
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-gap:1em;
+
+  }
+  .consectetur > div{
+    background:#eee;
+    padding:1em;
+    align-items: center;
+  }
+  .consectetur >div:nth-child(odd){
+    background:rgb(11, 3, 88);
+
+  }
+body
+  {
+    background:red;
+  }
+  .consectetur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
